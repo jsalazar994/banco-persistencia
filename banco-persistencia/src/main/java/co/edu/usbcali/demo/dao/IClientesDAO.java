@@ -10,6 +10,6 @@ public interface IClientesDAO {
 	public void modificar(Clientes entity);
 	public void borrar(Clientes entity);
 	public Clientes consultarPorId (Long cliId);
-	public List<Clientes> consultar();
+	public List<Clientes> consultar(20);
 
 }
