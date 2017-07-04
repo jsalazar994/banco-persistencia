@@ -52,7 +52,7 @@ public class ClientesDAOTest {
 		clientes.setCliNombre("Bart Simpson");
 		clientes.setCliTelefono("555-5555");
 
-		TiposDocumentos tiposDocumentos = tiposDocumentosDAO.consultarPorId(20L);
+		TiposDocumentos tiposDocumentos + tiposDocumentosDAO.consultarPorId(20L);
 		assertNotNull("El tipo de documento no existe", tiposDocumentos);
 
 		clientes.setTiposDocumentos(tiposDocumentos);
